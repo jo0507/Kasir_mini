@@ -1,0 +1,114 @@
+===========================================
+  PANDUAN CEPAT INSTALASI
+  SISTEM KASIR MINIMARKET
+===========================================
+
+📌 LANGKAH INSTALASI (5 MENIT!)
+
+1️⃣  PERSIAPAN
+   ✓ Download & Install XAMPP
+   ✓ Jalankan XAMPP Control Panel
+   ✓ Start Apache & MySQL
+
+2️⃣  EKSTRAK FILE
+   ✓ Ekstrak folder 'sistem_kasir' ke:
+     C:\xampp\htdocs\sistem_kasir
+
+3️⃣  IMPORT DATABASE
+   ✓ Buka browser → http://localhost/phpmyadmin
+   ✓ Buat database baru: kasir_minimarket
+   ✓ Klik tab "Import"
+   ✓ Pilih file: database.sql
+   ✓ Klik "Go"
+
+4️⃣  JALANKAN APLIKASI
+   ✓ Buka browser
+   ✓ Ketik: http://localhost/sistem_kasir
+   ✓ Login dengan:
+     Username: admin
+     Password: admin123
+
+5️⃣  SELESAI! 🎉
+
+===========================================
+
+📖 FITUR UTAMA:
+
+✅ Transaksi Kasir (Scan Barcode)
+✅ Manajemen Produk & Stok
+✅ Diskon Otomatis
+✅ Cetak Struk
+✅ Tutup Kasir & Rekonsiliasi
+✅ Laporan Transaksi
+
+===========================================
+
+🔐 LOGIN DEFAULT:
+
+Admin:
+  Username: admin
+  Password: admin123
+
+Kasir:
+  Username: kasir1
+  Password: kasir123
+
+⚠️  PENTING: Ganti password setelah login!
+
+===========================================
+
+💡 QUICK START:
+
+1. Login sebagai kasir
+2. Klik menu "Kasir"
+3. Scan/ketik barcode produk
+4. Pilih metode pembayaran
+5. Klik "Proses Pembayaran"
+6. Cetak struk
+
+===========================================
+
+📊 STRUKTUR FILE:
+
+sistem_kasir/
+├── index.php          → Dashboard
+├── login.php          → Halaman Login
+├── kasir.php          → Transaksi Kasir
+├── produk.php         → Manajemen Produk
+├── diskon.php         → Manajemen Diskon
+├── transaksi.php      → Riwayat Transaksi
+├── tutup_kasir.php    → Tutup Kasir
+├── struk.php          → Cetak Struk
+├── config.php         → Konfigurasi Database
+├── database.sql       → File Database
+├── assets/css/        → File CSS
+└── README.md          → Dokumentasi Lengkap
+
+===========================================
+
+🆘 BANTUAN:
+
+Jika ada error:
+1. Pastikan Apache & MySQL running
+2. Cek nama database: kasir_minimarket
+3. Cek config.php (user/pass MySQL)
+4. Baca README.md untuk detail
+
+===========================================
+
+✨ FITUR UNGGULAN:
+
+• Real-time stock update
+• Auto discount calculation
+• Multi payment method
+• Cash reconciliation
+• Professional receipt
+• Complete transaction history
+
+===========================================
+
+🚀 SELAMAT MENCOBA!
+
+Sistem siap digunakan untuk toko/minimarket Anda!
+
+===========================================
