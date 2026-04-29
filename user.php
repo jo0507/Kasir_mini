@@ -80,6 +80,7 @@ $result = mysqli_query($conn, $query);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manajemen User - Sistem Kasir</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <?php include_once 'speed-insights.php'; ?>
 </head>
 <body>
     <div class="sidebar">

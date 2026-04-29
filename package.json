@@ -1,0 +1,9 @@
+{
+  "name": "kasir-mini",
+  "version": "1.0.0",
+  "description": "Sistem Kasir Minimarket",
+  "private": true,
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.12"
+  }
+}

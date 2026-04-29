@@ -39,6 +39,7 @@ $total = mysqli_fetch_assoc(mysqli_query($conn, $query_total));
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Riwayat Transaksi - Sistem Kasir</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <?php include_once 'speed-insights.php'; ?>
 </head>
 <body>
     <div class="sidebar">

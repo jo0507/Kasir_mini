@@ -76,6 +76,7 @@ $grafik_data = mysqli_query($conn, $query_grafik);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Laporan - Sistem Kasir</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <?php include_once 'speed-insights.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
