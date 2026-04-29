@@ -99,6 +99,7 @@ $bonus = mysqli_query($conn, "SELECT * FROM setting_bonus ORDER BY minimal_penju
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Setting Gaji - Sistem Kasir</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <?php include_once 'speed-insights.php'; ?>
 </head>
 <body>
     <div class="sidebar">

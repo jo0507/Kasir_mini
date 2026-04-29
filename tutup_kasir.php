@@ -57,6 +57,7 @@ if (isset($_POST['tutup_kasir'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tutup Kasir - Sistem Kasir</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <?php include_once 'speed-insights.php'; ?>
 </head>
 <body>
     <div class="sidebar">

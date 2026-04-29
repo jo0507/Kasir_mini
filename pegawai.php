@@ -79,6 +79,7 @@ $result_users = mysqli_query($conn, $query_users);
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Manajemen Pegawai - Sistem Kasir</title>
     <link rel="stylesheet" href="assets/css/style.css">
+    <?php include_once 'speed-insights.php'; ?>
 </head>
 <body>
     <div class="sidebar">

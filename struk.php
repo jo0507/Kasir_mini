@@ -30,6 +30,7 @@ $detail = mysqli_query($conn, $query_detail);
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Struk - <?php echo $transaksi['kode_transaksi']; ?></title>
+    <?php include_once 'speed-insights.php'; ?>
     <style>
         * {
             margin: 0;
